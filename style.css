@@ -1,0 +1,54 @@
+body {
+    color: white;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.heading {
+    width: 80%;
+    font-size: 22px;;
+}
+
+.name_objects {
+    color: rgb(255, 248, 211);
+    font-size: medium;
+}
+
+#camera {
+    border: 2px dashed rgb(255, 233, 199);
+    width: 350px;
+    height: 300px;
+}
+
+#take_snapshot_btn {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border: 1px solid white;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+#check_btn {
+    background: rgb(252,74,26);
+    background: linear-gradient(225deg, rgba(252,74,26,1) 0%, rgba(249,133,40,1) 50%, rgba(247,183,51,1) 100%);
+    border: 1px solid white;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+#result_object_name {
+    color: rgb(255, 248, 211);
+    font-size: medium;
+}
+
+#result_object_accuracy {
+    color: rgb(211, 255, 218);
+    font-size: medium;
+}
+
+#result {
+    border: 2px dashed rgb(249, 255, 199);
+    width: 350px;
+    height: 300px;
+}
